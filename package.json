@@ -1,0 +1,14 @@
+{
+  "name": "ai-loan-eligibility-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive educational loan eligibility and financial guidance app.",
+  "scripts": {
+    "start": "node dev-server.js",
+    "dev": "node dev-server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

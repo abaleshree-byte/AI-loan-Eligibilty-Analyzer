@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/financial-advice"
+  to = "/.netlify/functions/financial-advice"
+  status = 200
+
+[[redirects]]
+  from = "/api/save-analysis"
+  to = "/.netlify/functions/save-analysis"
+  status = 200
